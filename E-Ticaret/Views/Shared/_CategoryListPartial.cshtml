@@ -1,0 +1,17 @@
+@model List<EntityLayer22.Entities.Category>
+
+<div class="left-sidebar">
+    <h2>Kategoriler</h2>
+    <div class="panel-group category-products" id="accordian">
+        @foreach (var item in Model)
+        {
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#">@item.Name</a>
+                    </h4>
+                </div>
+            </div>
+        }
+    </div>
+</div>

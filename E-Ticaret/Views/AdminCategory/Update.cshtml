@@ -1,0 +1,36 @@
+﻿@model EntityLayer22.Entities.Category
+@{
+    ViewBag.Title = "Update";
+}
+
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+
+                <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" class="form-control" name="Name" value="@Model.Name" />
+                    @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
+
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <input type="text" class="form-control" name="Description" value="@Model.Description" />
+                    @Html.ValidationMessageFor(x => x.Description, "", new { @style = "color:red" })
+                </div>
+                <br />
+                <button class="btn btn-primary" type="submit">Güncelle</button>
+
+            </form>
+        </div>
+    </div>
+</div>

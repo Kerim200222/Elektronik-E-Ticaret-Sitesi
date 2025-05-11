@@ -1,0 +1,89 @@
+﻿@model EntityLayer22.Entities.Product
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+@if (ViewBag.Errors != null)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewBag.Errors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "btn btn-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Name)
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Description)
+                    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Description, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.Label("Resim")
+                    <input type="file" class="form-control" name="file" />
+                    @Html.ValidationMessageFor(x => x.Image, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Price)
+                    @Html.TextBoxFor(x => x.Price, new { @class = "form-control", type = "number", step = "0.01" })
+                    @Html.ValidationMessageFor(x => x.Price, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Stock)
+                    @Html.TextBoxFor(x => x.Stock, new { @class = "form-control", type = "number" })
+                    @Html.ValidationMessageFor(x => x.Stock, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Popular)
+                    @Html.CheckBoxFor(x => x.Popular)
+                    @Html.ValidationMessageFor(x => x.Popular, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.IsApproved)
+                    @Html.CheckBoxFor(x => x.IsApproved)
+                    @Html.ValidationMessageFor(x => x.IsApproved, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label>Kategori</label>
+                    @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.ktgr, new { @class = "form-cotrol" })
+                    @Html.ValidationMessageFor(x => x.CategoryId, "", new { @style = "color:red" })
+                </div>
+                <br />
+
+                <button class="btn btn-primary" type="submit">Ekle</button>
+                <a href="/AdminProduct/Index" class="btn btn-secondary">Ürün Listesi</a>
+            </form>
+        </div>
+    </div>
+</div>

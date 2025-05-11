@@ -1,0 +1,645 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Ticaret.bundle.scp.css",
+      "PackagePath": "staticwebassets\\E-Ticaret.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\AboAyman.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\AboAyman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\AboAymann.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\AboAymann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Excalibur-Wallpaper-03.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Excalibur-Wallpaper-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Excalibur-Wallpaper-04.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Excalibur-Wallpaper-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Excalibur-Wallpaper-Clan-01.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Excalibur-Wallpaper-Clan-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Excalibur-Wallpaper-Clan-08.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Excalibur-Wallpaper-Clan-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Iphone1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Iphone1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Iphone2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Iphone2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Screenshot 2023-08-27 212203.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\Screenshot 2023-08-27 212203.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\ShoppingCart.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\ShoppingCart.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Wallpaper-3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Wallpaper-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Wallpaper-7.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Wallpaper-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\Wallpaper-9.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\Wallpaper-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\aa1.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\aa1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\aa2.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\aa2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\aa3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\aa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisaya1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisaya1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisayar2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisayar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisayar5.avif",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisayar5.avif"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisayar6.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisayar6.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisayar7.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisayar7.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\bilgisayar8.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\bilgisayar8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\images.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\laptop.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\qq1.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\qq1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\qq2.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\qq2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\qq3.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\qq3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\sa1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\sa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\saj2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\saj2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\sar3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\sar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\tablet1.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\tablet1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\tablet1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\tablet1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\tablet2.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\tablet3.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\tablet3.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\telefon1.jpeg",
+      "PackagePath": "staticwebassets\\Content\\Image\\telefon1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\telefon2.png",
+      "PackagePath": "staticwebassets\\Content\\Image\\telefon2.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\Content\\Image\\telefon3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Image\\telefon3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\NiceAdmin\\assets\\chart-master\\component.json",
+      "PackagePath": "staticwebassets\\NiceAdmin\\assets\\chart-master\\component.json"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\NiceAdmin\\assets\\morris.js-0.4.3\\component.json",
+      "PackagePath": "staticwebassets\\NiceAdmin\\assets\\morris.js-0.4.3\\component.json"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\NiceAdmin\\assets\\morris.js-0.4.3\\package.json",
+      "PackagePath": "staticwebassets\\NiceAdmin\\assets\\morris.js-0.4.3\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\NiceAdmin\\img\\AboAymann.jpg",
+      "PackagePath": "staticwebassets\\NiceAdmin\\img\\AboAymann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\css\\site-auth.css",
+      "PackagePath": "staticwebassets\\css\\site-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\css\\site-cart.css",
+      "PackagePath": "staticwebassets\\css\\site-cart.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\css\\site-reset.css",
+      "PackagePath": "staticwebassets\\css\\site-reset.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\css\\site-sales.css",
+      "PackagePath": "staticwebassets\\css\\site-sales.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\Iccon2.png",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\Iccon2.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\Login_Tablet.jpg",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\Login_Tablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\LogoTest.png",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\LogoTest.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\TIKLA AL.jpg",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\TIKLA AL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\TIKLA1.png",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\TIKLA1.png"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\eshop\\images\\home\\TiklaIccon.ico",
+      "PackagePath": "staticwebassets\\eshop\\images\\home\\TiklaIccon.ico"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abooa\\source\\repos\\E-Ticaret\\E-Ticaret\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Ticaret.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E-Ticaret.props",
+      "PackagePath": "build\\E-Ticaret.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E-Ticaret.props",
+      "PackagePath": "buildMultiTargeting\\E-Ticaret.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E-Ticaret.props",
+      "PackagePath": "buildTransitive\\E-Ticaret.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

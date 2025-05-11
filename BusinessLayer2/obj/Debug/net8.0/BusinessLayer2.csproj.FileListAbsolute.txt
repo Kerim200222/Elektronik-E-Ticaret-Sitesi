@@ -1,0 +1,17 @@
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\BusinessLayer2.deps.json
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\BusinessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\BusinessLayer2.pdb
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\DataAccessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\EntityLayer22.dll
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\DataAccessLayer2.pdb
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\bin\Debug\net8.0\EntityLayer22.pdb
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.csproj.AssemblyReference.cache
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.AssemblyInfoInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.AssemblyInfo.cs
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.csproj.CoreCompileInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\Business.7EA52929.Up2Date
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\refint\BusinessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\BusinessLayer2.pdb
+C:\Users\abooa\source\repos\E-Ticaret\BusinessLayer2\obj\Debug\net8.0\ref\BusinessLayer2.dll

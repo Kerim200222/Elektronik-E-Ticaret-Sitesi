@@ -1,0 +1,113 @@
+﻿@model List<EntityLayer22.Entities.Product>
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<section id="slider">
+    <!--slider-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Uygun Alışverişin Adresi</h2>
+                                <p>Uygun fiyat garantisiyle tüm ürünlerimizde piyasanın çok altında satış yapıyoruz. DÜNYANIN EN DÜŞÜK FİYATLARIYLA... </p>
+                                <button type="button" class="btn btn-default get">Şimdi satın al</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Content/Image/av.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/eshop/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Hızda Sınır Tanımıyoruz</h2>
+                                <p>Hızlı kargo seçeneğiyle Türkiye'nin neresinde olursanız olun,48 saat içerisinde ürününüz elinize ulaşsın. DÜNYANIN EN İYİ KARGO SİSTEMİYLE..' </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/eshop/images/home/girl3.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/eshop/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Aradığınız Kalite</h2>
+                                <p>En modern en yeni ürünleri yüksek kalitesiyle hizmetinize sunuyoruz. Fabrikadan çıktığı gibi mağazamızda. EN MODERN ÜRÜNLERLE... </p>
+                                <button type="button" class="btn btn-default get">Şimdi satın al it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Content/Image/av2.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/eshop/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section><!--/slider-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                @await Component.InvokeAsync("CategoryList")
+            </div>
+            <div class="col-sm-9 padding-right">
+                <div class="features_items">
+                    <!--features_items-->
+                    <h2 class="title text-center">ÜRÜNLERİMİZ</h2>
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+
+                                        <a href="/Product/ProductDetails/@item.Id"><img src="~/Content/Image/@item.Image" width="65" height="150" alt="" /></a>
+                                        <h2>@item.Price</h2>
+                                        <p>@item.Name</p>
+                                        <a href="/Product/ProductDetails/@item.Id" class="btn btn-default add-to-cart">Ürün Detay</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    }
+
+                    
+
+
+                </div><!--features_items-->
+                @await Component.InvokeAsync("PopularProduct")
+
+            </div>
+        </div>
+    </div>
+</section>
+

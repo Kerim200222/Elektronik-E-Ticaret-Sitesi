@@ -1,0 +1,59 @@
+﻿/* site-reset.css */
+
+/* ====== خلفية تتناسق مع صفحة Giriş Yap ====== */
+body.reset-bg {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    min-height: 100vh;
+}
+
+/* ====== البطاقة البيضاء ====== */
+.reset-card {
+    background: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+    /* ====== العنوان ====== */
+    .reset-card h3 {
+        color: #224abe; /* أزرق غامق مطابق */
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    /* ====== حقول الإدخال ====== */
+    .reset-card .form-control {
+        border-radius: 0.75rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid #e3e6f0; /* رمادي فاتح */
+        background-color: #f8f9fc; /* قريب من لون بطاقات صفحة الدخول */
+    }
+
+    /* ====== زر الإرسال ====== */
+    .reset-card .btn-primary {
+        background-color: #4e73df; /* أزرق مطابق للصفحة */
+        border-color: #4e73df;
+        border-radius: 50px;
+        padding: 0.75rem;
+        font-weight: 600;
+        width: 100%;
+    }
+
+        .reset-card .btn-primary:hover {
+            background-color: #2e59d9; /* أزرق داكن للـ hover */
+            border-color: #2e59d9;
+        }
+
+    /* ====== رسالة النجاح ====== */
+    .reset-card .alert-success {
+        background-color: #d1d3e2; /* شبيه بخلفية الحقل */
+        border-color: #d1d3e2;
+        color: #1f2937;
+        border-radius: 0.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }

@@ -1,0 +1,93 @@
+/* site-auth.css */
+
+/* Œ·›Ì… „ œ—Ã… ··‘«‘… «·ﬂ«„·… */
+.auth-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* «·Õ«ÊÌ… «·—∆Ì”Ì… */
+.auth-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;
+    gap: 2rem;
+}
+
+/* »ÿ«ﬁ… (card) ··‰„«–Ã */
+.auth-card {
+    flex: 1;
+    min-width: 280px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+/* ⁄‰Ê«‰ ﬂ· »ÿ«ﬁ… */
+.auth-title {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+/* ›«’· OR */
+.auth-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+}
+
+    .auth-divider::before,
+    .auth-divider::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: rgba(255,255,255,0.5);
+        margin: 0 1rem;
+    }
+
+/*  ‰”Ìﬁ «·ÕﬁÊ· */
+.auth-card .form-control {
+    border-radius: 0.75rem;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+}
+
+/* √“—«— „’ﬁÊ·… */
+.auth-card .btn {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    font-weight: 600;
+}
+
+/* “— —∆Ì”Ì */
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+    .btn-primary:hover {
+        background-color: #5a67d8;
+        border-color: #5a67d8;
+    }
+
+/* “— À«‰ÊÌ ≈ÿ«— */
+.btn-outline-secondary {
+    color: #667eea;
+    border-color: #667eea;
+}
+
+    .btn-outline-secondary:hover {
+        background-color: rgba(102,126,234,0.1);
+    }

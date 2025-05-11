@@ -1,0 +1,96 @@
+﻿@model List<EntityLayer22.Entities.Cart>
+@{
+    ViewBag.Title = "Sepetim";
+    Layout = "~/Views/Shared/Layout.cshtml";
+    var fullName = User.FindFirst("FullName")?.Value ?? "Misafir";
+}
+
+<link href="~/eshop/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/css/site-cart.css" rel="stylesheet" />
+
+
+<div class="cart-wrapper">
+    <div class="cart-box container">
+        <h2>@fullName</h2>
+        <h3>Sepetim</h3>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ürün Bilgisi</th>
+                    <th>Adet</th>
+                    <th>Fiyat</th>
+                    <th>Tarih</th>
+                    <th>Resim</th>
+                    <th>Sil</th>
+                    <th>Satın Al</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Product.Name</td>
+                        <td>
+                            @Html.ActionLink("-", "azalt", new { id = item.Id }, new { @class = "azalt" })
+                            @Html.TextBoxFor(x => item.Quantity, new { @class = "txt", data_id = item.Id })
+                            @Html.ActionLink("+", "arttir", new { id = item.Id }, new { @class = "arttir" })
+                        </td>
+                        <td>₺@item.Product.Price</td>
+                        <td>@Convert.ToDateTime(item.Date).ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <img src="~/Content/Image/@item.Product.Image"
+                                 width="90" height="90"
+                                 class="img-fluid rounded" />
+                        </td>
+                        <td>
+                            @Html.ActionLink("Sil", "Delete", new { id = item.Id },
+                                     new
+                                     {
+                                         @class = "btn btn-danger btn-sm",
+                                         onclick = "return confirm('Silmek istiyor musunuz?')"
+                                     })
+                        </td>
+                        <td>
+                            <a href="/Sales/Buy/@item.Id"
+                               class="btn btn-success btn-sm">
+                                Satın Al
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="row cart-actions mt-4">
+            <div class="col-md-4">
+                <div class="alert alert-info text-center">
+                    Toplam Tutar: <strong>₺@ViewBag.Tutar</strong>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <a href="/Sales/BuyAll" class="btn btn-success">Tümünü Satın Al</a>
+            </div>
+            <div class="col-md-4">
+                <a href="/Cart/DeleteRange" class="btn btn-danger">Hepsini Sil</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.0.0.min.js"></script>
+<script>
+    $(function () {
+        $('.txt').on('change', function () {
+            var miktar = $(this).val();
+            var sepetid = $(this).attr('data_id');
+            $.ajax({
+                url: '/Cart/DinamikMiktar',
+                data: { id: sepetid, miktari: miktar },
+                success: function () {
+                    location.reload();
+                }
+            });
+        });
+    });
+</script>

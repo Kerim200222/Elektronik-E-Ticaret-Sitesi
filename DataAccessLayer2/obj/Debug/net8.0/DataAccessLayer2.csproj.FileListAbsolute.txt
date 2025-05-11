@@ -1,0 +1,17 @@
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\DataAccessLayer2.deps.json
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\DataAccessLayer2.runtimeconfig.json
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\DataAccessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\DataAccessLayer2.pdb
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\EntityLayer22.dll
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\bin\Debug\net8.0\EntityLayer22.pdb
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.csproj.AssemblyReference.cache
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.AssemblyInfoInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.AssemblyInfo.cs
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.csproj.CoreCompileInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAcce.F7A20C66.Up2Date
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\refint\DataAccessLayer2.dll
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.pdb
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\DataAccessLayer2.genruntimeconfig.cache
+C:\Users\abooa\source\repos\E-Ticaret\DataAccessLayer2\obj\Debug\net8.0\ref\DataAccessLayer2.dll

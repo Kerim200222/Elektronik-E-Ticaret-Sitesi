@@ -1,0 +1,43 @@
+﻿@model EntityLayer22.Entities.User
+@{
+    Layout = null;
+}
+<link href="~/eshop/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+    <div class="container">
+        <br />
+        <div class="form-group">
+            <label>Ad:</label>
+            <input type="text" class="form-control" name="Name" value="@Model.Name" />
+            @Html.ValidationMessageFor(x => x.Name, "", new { @style = "color:red" })
+        </div>
+        <div class="form-group">
+            <label>Soyad:</label>
+            <input type="text" class="form-control" name="SurName" value="@Model.SurName" />
+            @Html.ValidationMessageFor(x => x.SurName, "", new { @style = "color:red" })
+        </div>
+        <div class="form-group">
+            <label>Kullanıcı Adı:</label>
+            <input type="text" class="form-control" name="UserName" value="@Model.UserName" />
+            @Html.ValidationMessageFor(x => x.UserName, "", new { @style = "color:red" })
+        </div>
+        <div class="form-group">
+            <label>EMail</label>
+            <input type="email" class="form-control" name="Email" value="@Model.Email" />
+            @Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:red" })
+        </div>
+        <div class="form-group">
+            <label>Şifre</label>
+            <input type="password" class="form-control" name="Password" value="@Model.Password" />
+            @Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })
+        </div>
+        <div class="form-group">
+            <label>Şifre</label>
+            <input type="password" class="form-control" name="RePassword" value="@Model.RePassword" />
+            @Html.ValidationMessageFor(x => x.RePassword, "", new { @style = "color:red" })
+        </div>
+
+        <button class="btn btn-primary">Güncelle</button>
+    </div>
+</form>

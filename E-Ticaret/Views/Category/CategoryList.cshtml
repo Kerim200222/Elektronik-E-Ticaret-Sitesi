@@ -1,0 +1,17 @@
+﻿@model List<EntityLayer22.Entities.Category>
+
+<div class="col-sm-3" style="margin-top:30px">
+    <div class="left-sidebar">
+        <div class="brands_products">
+            <h2>KATEGORİLER</h2>
+            <div class="brands-name">
+                @foreach (var item in Model)
+                {
+                    <ul class="nav nav-pills mav-stacked">
+                        <li><a href="/Category/Details/@item.Id"><span class="pull-right">(@item.Products.Count)</span>@item.Name</a></li>
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</div>

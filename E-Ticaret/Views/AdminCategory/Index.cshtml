@@ -1,0 +1,51 @@
+﻿@model List<EntityLayer22.Entities.Category>
+@{
+    ViewBag.Title = "Index";
+}
+
+<a class="btn btn-primary" href="/AdminCategory/Create">Kategori Ekle</a>
+<br />
+<br />
+<table class="table table-bordered" id="table">
+    <tr>
+        <th>Ad</th>
+        <th>Açıklama</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@Html.ActionLink("Sil", "Delete", new { item.Id }, new { @class = "btn btn-danger", onclick = "return confirm ('Silmek istiyor musunuz?')" })</td>
+            @*<td><a class="btn btn-danger btnSil" data-id="@item.Id">Sil</a></td>*@
+            <td><a class="btn btn-primary" href="/AdminCategory/Update/@item.Id">Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $("#table").on("click", ".btnSil", function () {
+            var btn = $(this);
+            bootbox.confirm("Silmek istediğinize emin misiniz?", function (result) {
+                if (result) {
+                    var id = btn.data("id");
+                    $.ajax({
+                        type: "GET",
+                        url: "/AdminCategory/Delete/" + id,
+                        success: function () {
+                            btn.parent().parent().remove();
+                        }
+                    });
+                } else {
+                    bootbox.confirm("Hata Oluştu");
+                }
+            })
+        });
+    });
+
+</script>

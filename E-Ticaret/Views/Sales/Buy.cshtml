@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Http
+@model EntityLayer22.Entities.Cart
+
+@{
+    ViewData["Title"] = "Buy";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="modal-header">
+    <h2>Satin Al</h2>
+</div>
+<div class="container">
+    @*//<form></form> da kullanılabilir.*@
+    @using (Html.BeginForm("Buy2", "Sales", FormMethod.Post))
+    {
+        <div class="modal-body">
+            @Html.HiddenFor(x => x.Id)
+
+            <div class="form-group">
+                <!-- نقرأ من الـ Session عبر Context.Session -->
+                Kullanıcı Adı Soyadı:
+                @Context.Session.GetString("Ad")
+                @Context.Session.GetString("Soyad")
+            </div>
+            <div class="form-group">
+                Ürün Bilgisi: @Html.DisplayFor(x => x.Product.Name, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                Adet: @Html.DisplayFor(x => x.Quantity, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <img src="@Model.Product.Image" width="90" height="90" />
+            </div>
+            <div class="form-group">
+                Fiyat: @Html.DisplayFor(x => x.Price, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="modal-footer" style="float:right">
+            <button class="btn btn-success">Satın Al</button>
+            <a href="/Cart/Index" class="btn btn-dark">İptal</a>
+        </div>
+    }
+</div>
+

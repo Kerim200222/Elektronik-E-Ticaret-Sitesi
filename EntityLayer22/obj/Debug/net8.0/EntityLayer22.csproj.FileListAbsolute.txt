@@ -1,0 +1,14 @@
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\bin\Debug\net8.0\EntityLayer22.deps.json
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\bin\Debug\net8.0\EntityLayer22.runtimeconfig.json
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\bin\Debug\net8.0\EntityLayer22.dll
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\bin\Debug\net8.0\EntityLayer22.pdb
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.csproj.AssemblyReference.cache
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.AssemblyInfoInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.AssemblyInfo.cs
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.csproj.CoreCompileInputs.cache
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.dll
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\refint\EntityLayer22.dll
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.pdb
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\EntityLayer22.genruntimeconfig.cache
+C:\Users\abooa\source\repos\E-Ticaret\EntityLayer22\obj\Debug\net8.0\ref\EntityLayer22.dll

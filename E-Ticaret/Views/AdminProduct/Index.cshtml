@@ -1,0 +1,68 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<EntityLayer22.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<a href="/AdminProduct/Create" class="btn btn-primary">Ekle</a>
+<br />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>Ad</td>
+        <td>Açıklama</td>
+        <td>Fiyat</td>
+        <td>Stok</td>
+        <td>Popüler</td>
+        <td>Onay</td>
+        <td>Resim</td>
+        <td>Kategori</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+
+            <td>
+                @if (item.Popular == true)
+                {
+
+
+                    <label class="btn btn-success">Evet</label>
+                }
+                else
+                {
+                    <label class="btn btn-danger">Hayir</label>
+
+                }
+            </td>
+            <td>
+                @if (item.IsApproved == true)
+                {
+
+
+                    <label class="btn btn-success">Evet</label>
+                }
+                else
+                {
+                    <label class="btn btn-danger">Hayir</label>
+
+                }
+            </td>
+            <td><img src="~/Content/Image/@item.Image" width="80" height="80" />Resim</td>
+
+            <td>@item.Category.Name</td>
+            <td>@Html.ActionLink("Sil", "Delete", new { item.Id }, new { @class = "btn btn-danger", onclick = "return confirm ('Silmek istiyor musunuz?')" })</td>
+            <td><a class="btn btn-primary" href="/AdminProduct/Update/@item.Id">Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+@Html.PagedListPager(Model, sayfa => Url.Action("Index", new { sayfa }),PagedListRenderOptions.Classic)

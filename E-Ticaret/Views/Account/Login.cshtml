@@ -1,0 +1,118 @@
+﻿@model EntityLayer22.Entities.User
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş / Kayıt | E-Shopper</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- ملف التنسيقات الخاص -->
+    <link href="~/css/site-auth.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="auth-section">
+        <div class="auth-container">
+            <!-- Login Form -->
+            <div class="auth-card">
+                <h2 class="auth-title">Lütfen Giriş Yapınız</h2>
+                <form asp-controller="Account" asp-action="Login" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="mb-3">
+                        <input asp-for="Email"
+                               placeholder="Email adresiniz"
+                               class="form-control" />
+                        <span asp-validation-for="Email"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="Password"
+                               type="password"
+                               placeholder="Şifreniz"
+                               class="form-control" />
+                        <span asp-validation-for="Password"
+                              class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">
+                        Giriş Yap
+                    </button>
+                    <button type="button" onclick="location.href='/User/PasswordReset'" class="btn btn-outline-secondary w-100">
+                        Şifremi Sıfırla
+                    </button>
+                </form>
+            </div>
+
+            <!-- OR Divider -->
+            <div class="auth-divider">YA DA</div>
+
+            <!-- Register Form -->
+            <div class="auth-card">
+                <h2 class="auth-title">Hesabınız Yoksa Kayıt Olunuz</h2>
+                <form asp-controller="Account" asp-action="Register" method="post">
+                    @Html.AntiForgeryToken()
+                    <input asp-for="Role" type="hidden" value="User" />
+
+                    <div class="mb-3">
+                        <input asp-for="Name"
+                               placeholder="Adınız"
+                               class="form-control" />
+                        <span asp-validation-for="Name"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="SurName"
+                               placeholder="Soyadınız"
+                               class="form-control" />
+                        <span asp-validation-for="SurName"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="Email"
+                               placeholder="Email Adresiniz"
+                               class="form-control" required maxlength="50" />
+                        <span asp-validation-for="Email"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="UserName"
+                               placeholder="Kullanıcı Adınız"
+                               class="form-control" />
+                        <span asp-validation-for="UserName"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="Password"
+                               type="password"
+                               placeholder="Şifreniz"
+                               class="form-control" required maxlength="50" />
+                        <span asp-validation-for="Password"
+                              class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="RePassword"
+                               type="password"
+                               placeholder="Şifre Tekrar"
+                               class="form-control" required maxlength="50" />
+                        <span asp-validation-for="RePassword"
+                              class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Kayıt Ol
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Validation Scripts -->
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

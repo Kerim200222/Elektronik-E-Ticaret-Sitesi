@@ -1,0 +1,76 @@
+﻿/* site-sales.css */
+
+/* 1) خلفية الصفحة */
+.sales-wrapper {
+    background: #f8f9fc;
+    padding: 2rem 0;
+    min-height: 100vh;
+}
+
+/* 2) البطاقة البيضاء حول الجدول */
+.sales-box {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.1);
+}
+
+    /* 3) العنوان */
+    .sales-box h2 {
+        color: #224abe;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    /* 4) تنسيق الجدول */
+    .sales-box .table {
+        border-collapse: separate;
+        border-spacing: 0 0.75rem;
+        background: transparent;
+    }
+
+        .sales-box .table thead th {
+            background: #e3e6f0;
+            color: #495057;
+            border: none;
+            text-align: center;
+            padding: 0.75rem;
+        }
+
+        .sales-box .table tbody tr {
+            background: #ffffff;
+            box-shadow: 0 .25rem .5rem rgba(0,0,0,0.05);
+        }
+
+        .sales-box .table tbody td {
+            border: none;
+            vertical-align: middle;
+            text-align: center;
+            padding: 0.75rem;
+        }
+
+        /* 5) الصور */
+        .sales-box .table img {
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+    /* 6) Pager */
+    .sales-box .pagination {
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+        .sales-box .pagination .page-link {
+            border-radius: 0.5rem;
+            margin: 0 0.25rem;
+        }
+
+        .sales-box .pagination .active .page-link {
+            background-color: #224abe;
+            border-color: #224abe;
+            color: #fff;
+        }
